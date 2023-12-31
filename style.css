@@ -1,0 +1,6 @@
+.banner{
+    background-image:linear-gradient(rgba(19, 18, 18, 0.774),rgba(19, 18, 18, 0.766)),url('https://tallycloud.biz/uploads/slider_01.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
