@@ -5,6 +5,13 @@
     background-position: center;
 }
 
+.about_us_banner{
+    background-image:linear-gradient(rgba(19, 18, 18, 0.234),rgba(19, 18, 18, 0.278)),url('./images/background-image.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
 body{
     font-family: 'Open Sans', sans-serif;
 }
