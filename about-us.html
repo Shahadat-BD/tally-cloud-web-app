@@ -20,6 +20,10 @@
     <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/daisyui@3.4.0/dist/full.css" rel="stylesheet" type="text/css" />
     <script src="https://cdn.tailwindcss.com"></script>
+      <!-- Using CDN -->
+     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css">
+     <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+
 </head>
 
 <body>
@@ -81,11 +85,13 @@
             <!-- about us section start here -->
             <section class="mt-20">
                 <div class="about_us_banner flex justify-center items-center h-[270px]">
-                    <h1 class="text-white font-bold lg:text-5xl text-3xl">About us</h1>
+                    <h1 data-aos="fade-down"
+                    data-aos-easing="linear"
+                    data-aos-duration="1500" class="text-white font-bold lg:text-5xl text-3xl">About us</h1>
                 </div>
                 <div class="bg-gray-50 lg:px-16 px-5 py-10">
                     <div class="flex lg:flex-row flex-col gap-5 items-center">
-                        <div class="flex-1">
+                        <div class="flex-1" data-aos="fade-up-right" data-aos-duration="1000">
                             <h1 class="lg:text-5xl text-2xl font-bold mb-5">Welcome to Tally Cloud Solutions</h1>
                             <p>Tally Cloud is a cloud-based accounting software that allows you to run your Tally
                                 software from anywhere, anytime, on any device. With Tally Cloud, you can access your
@@ -99,41 +105,43 @@
                                 and easy to navigate, and there are plenty of resources available to help you get
                                 started. </p>
                         </div>
-                        <div class="flex-1">
+                        <div class="flex-1" data-aos="zoom-in" data-aos-duration="1000">
                             <img class="shadow-lg rounded-lg w-full shadow-gray-300" src="./images/about_us.jpg" alt=""
                                 srcset="">
                         </div>
                     </div>
 
                     <div class="text-gray-600 body-font">
-                        <h1 class="lg:my-12 my-6 font-bold text-black lg:text-4xl text-3xl ">Why Choose Tally Cloud?</h1>
+                        <h1 data-aos="fade-down"
+                        data-aos-easing="linear"
+                        data-aos-duration="1000" class="lg:my-12 my-6 font-bold text-black lg:text-4xl text-3xl ">Why Choose Tally Cloud?</h1>
                         <div class="grid lg:grid-cols-2 grid-cols-1 gap-5">
-                             <div class="bg-gray-200 p-5 rounded-md"> 
+                             <div data-aos="fade-up-right" data-aos-duration="1000" class="bg-gray-200 p-5 rounded-md"> 
                                 <div class="flex items-center gap-3">
                                     <img class="w-10" src="./images/check-2.png" alt="" srcset="">
                                     <p>Accessibility: You can access your data from anywhere, as long as you have an internet connection.</p>
                                 </div>
                             </div>
-                             <div class="bg-gray-200 p-5 rounded-md"> 
+                             <div data-aos="fade-up-right" data-aos-duration="1000" class="bg-gray-200 p-5 rounded-md"> 
                                 <div class="flex items-center gap-3">
                                     <img class="w-10" src="./images/check-2.png" alt="" srcset="">
                                     <p>Convenience: You can use any device to access your data, so you can work from home, on the go, or in the office.</p>
                                 </div>
                             </div>
-                             <div class="bg-gray-200 p-5 rounded-md"> 
+                             <div data-aos="fade-up-right" data-aos-duration="1000" class="bg-gray-200 p-5 rounded-md"> 
                                 <div class="flex items-center gap-3">
                                     <img class="w-10" src="./images/check-2.png" alt="" srcset="">
                                     <p>Security: Your data is stored on secure servers, so you can be sure that it is safe and secure.
                                     </p>
                                 </div>
                             </div>
-                             <div class="bg-gray-200 p-5 rounded-md"> 
+                             <div data-aos="fade-up-right" data-aos-duration="1000" class="bg-gray-200 p-5 rounded-md"> 
                                 <div class="flex items-center gap-3">
                                     <img class="w-10" src="./images/check-2.png" alt="" srcset="">
                                     <p>Ease of use: Tally Cloud is easy to use, even for first-time users.</p>
                                 </div>
                             </div>
-                             <div class="bg-gray-200 p-5 rounded-md"> 
+                             <div data-aos="fade-up-right" data-aos-duration="1000" class="bg-gray-200 p-5 rounded-md"> 
                                 <div class="flex items-center gap-3">
                                     <img class="w-10" src="./images/check-2.png" alt="" srcset="">
                                     <p>Cost-effectiveness: Tally Cloud is a cost-effective solution for businesses of all sizes..</p>
@@ -143,8 +151,8 @@
                    </div>
 
                     <div>
-                        <h1 class="lg:text-4xl text-2xl font-bold mt-10 mb-5">Get Started with Tally Cloud Today!</h1>
-                        <p>If you are looking for a cloud-based Tally that is secure, cost-effective, and easy to use, then Tally Cloud is the perfect solution for you. Get started today and see how Tally Cloud can help your business grow.</p>
+                        <h1 data-aos="fade-up-right" data-aos-duration="1000" class="lg:text-4xl text-2xl font-bold mt-10 mb-5">Get Started with Tally Cloud Today!</h1>
+                        <p data-aos="fade-up-right" data-aos-duration="1000">If you are looking for a cloud-based Tally that is secure, cost-effective, and easy to use, then Tally Cloud is the perfect solution for you. Get started today and see how Tally Cloud can help your business grow.</p>
                     </div>
                 </div>
             </section>
@@ -160,13 +168,13 @@
             </div>
             <div class="text-gray-300">
                 <h3 class="text-white font-bold text-2xl mb-3">Quick Link</h3>
-                <p class="my-2">Home</p>
+                <p class="my-2"><a href="index.html" class="hover:text-[#F72585] ">Home</a></p>
                 <hr>
-                <p class="my-2">privacy Policy</p>
+                <p class="my-2"><a href="privacy.html" class="hover:text-[#F72585] ">Privacy Policy</a></p>
                 <hr>
-                <p class="my-2">Terms Of Services</p>
+                <p class="my-2"><a href="term.html" class="hover:text-[#F72585] ">Term of Services</a></p>
                 <hr>
-                <p class="my-2">Contact</p>
+                <p class="my-2"><a href="contact.html" class="hover:text-[#F72585] ">Contact</a></p>
             </div>
             <div class="text-gray-300">
                 <h3 class="text-white font-bold text-2xl mb-3">Get In Touch</h3>
@@ -203,6 +211,10 @@
         </ul>
     </div>
     </div>
+    
+    <script>
+        AOS.init();
+  </script>
 </body>
 
 </html>
